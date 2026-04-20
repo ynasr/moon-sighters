@@ -144,8 +144,6 @@ export default async function CountyForumPage({
             forumWindowId={activeWindow.id}
             countySlug={slug}
             isLoggedIn={!!user}
-            isAdmin={isAdmin}
-            currentUserId={user?.id ?? null}
           />
         </>
       ) : (
