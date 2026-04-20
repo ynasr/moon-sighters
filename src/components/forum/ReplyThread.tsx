@@ -76,6 +76,7 @@ export function ReplyThread({
               ...prev,
               {
                 ...newReply,
+                deleted_at: null,
                 author_name: profile?.display_name ?? "Unknown",
               },
             ];
